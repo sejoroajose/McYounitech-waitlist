@@ -122,7 +122,7 @@
 }
 
 /* For screens larger than 768px (desktop devices) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     a{
         text-decoration: none;
     }
