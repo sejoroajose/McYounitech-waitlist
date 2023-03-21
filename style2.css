@@ -92,6 +92,7 @@
     }
     
     body section img{
+        display: none;
         margin-top: 2rem;
         width: 100%;
         height: auto;
