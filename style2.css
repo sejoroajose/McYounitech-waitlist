@@ -30,13 +30,13 @@
         padding: 5px 3px 0px 3px;
     }
     body nav img{
-        position: absolute;
         height: 2.5rem;
         width: 12rem;
-        left: 5rem;
-        top: 2.4rem;
-        scale: 1.5;
-        box-sizing: border-box;
+        flex-basis: 100%;
+        justify-content: center;
+        text-align: center;
+        margin: 7px auto;
+        padding: 10px auto;
     }
     section svg{
         display: none;
@@ -48,15 +48,12 @@
         justify-content: center;
         align-items: center;
         padding: 8px 16px;
-        width: 8rem;
-        height: 4rem;
-        margin: 2rem 2rem auto auto;
         border: 2px solid #000000;
         border-radius: 8px;
     }
     
     section h1{
-        width:16rem;
+        width:700px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 200;
@@ -74,9 +71,9 @@
     section p{
         margin: 1.5rem auto;
         width: 85%;
-        font-size: 1rem;
+        font-size: 2rem;
         font-family: "inter";
-        line-height: 1.5rem;
+        line-height: auto;
         text-align: justify;
     }
     
