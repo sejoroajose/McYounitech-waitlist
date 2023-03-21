@@ -33,8 +33,9 @@
         position: absolute;
         height: 2.5rem;
         width: 12rem;
-        left: 2rem;
+        left: 5rem;
         top: 2.4rem;
+        scale: 1.5;
         box-sizing: border-box;
     }
     section svg{
@@ -47,18 +48,19 @@
         justify-content: center;
         align-items: center;
         padding: 8px 16px;
-        width: 6rem;
-        height: 2.5rem;
-        margin: 2rem 1rem auto auto;
-        border: 1px solid #000000;
+        width: 8rem;
+        height: 4rem;
+        margin: 2rem 2rem auto auto;
+        border: 2px solid #000000;
         border-radius: 8px;
     }
     
     section h1{
-        width:19rem;
+        width:16rem;
         font-family: 'Inter';
         font-style: normal;
-        font-size: 4rem;
+        font-weight: 200;
+        font-size: 5rem;
         line-height: 1.32;
         color: #961F23;
         margin: 2rem ;
