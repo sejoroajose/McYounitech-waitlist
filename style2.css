@@ -1,5 +1,5 @@
 /* For screens smaller than 768px (mobile devices) */
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 786px) {
     a{
         text-decoration: none;
     }
