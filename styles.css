@@ -101,13 +101,13 @@ svg{
   width: 20px;
   height: 20px;
   text-align: center;
-  padding: 5px 3px 0px 3px;
+  padding: 5px;
 }
 #icns{
   display: flex;
-  /* margin: 50px auto auto 80px; */
+  margin: 50px auto auto 50px;
   position: absolute;
-  top: 1200px;
+  top: 970px;
   justify-content: center; 
   
 }
