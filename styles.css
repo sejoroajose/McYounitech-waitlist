@@ -105,9 +105,9 @@ svg{
 }
 #icns{
   display: flex;
-  margin: 50px auto auto 50px;
+  margin: 20px auto auto 20px;
   position: absolute;
-  top: 970px;
+  top: 930px;
   justify-content: center; 
   
 }
