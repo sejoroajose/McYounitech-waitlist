@@ -101,7 +101,7 @@ svg{
   width: 20px;
   height: 20px;
   text-align: center;
-  padding: 5px;
+  padding: 5px 3px 0px 3px;
 }
 #icns{
   display: flex;
@@ -109,7 +109,7 @@ svg{
   position: absolute;
   top: 930px;
   justify-content: center; 
-  
+  align-items: center;
 }
 #blur-lay1{
   position: absolute;
