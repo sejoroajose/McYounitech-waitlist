@@ -98,17 +98,17 @@ svg{
   background-color: #000000;
   color: white;
   scale: 1.5;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   text-align: center;
-  padding: 5px 5px 3px 5px;
+  padding: 5px 2px 2px 2px;
 }
 #icns{
   display: flex;
   margin: 20px auto auto 20px;
   position: absolute;
   top: 915px;
-  left: 116px;
+  left: 60px;
   height: 32px;
   justify-content: center; 
   align-items: center;
