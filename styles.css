@@ -107,12 +107,21 @@ svg{
   display: flex;
   margin: 20px auto auto 20px;
   position: absolute;
-  top: 915px;
+  top: 870px;
   left: 60px;
   height: 32px;
   justify-content: center; 
   align-items: center;
 }
+
+footer{
+  left:75px ;
+  top: 900px;
+  position: absolute;
+  margin: 30px ;
+  
+}
+
 #blur-lay1{
   position: absolute;
   width: 175px;
