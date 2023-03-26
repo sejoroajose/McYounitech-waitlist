@@ -128,7 +128,7 @@ svg{
 }
 #blur-lay2{
   position: absolute;
-  position: absolute;
+  
   width: 188px;
   height: 227px;
   left: 0px;
@@ -138,9 +138,9 @@ svg{
   filter: blur(139.093px);
 }
 footer{
-  left: 60px;
-  top: 940px;
-  position: absolute;
+  left:70 px;
+  top: 960px;
+  
 }
 
 
