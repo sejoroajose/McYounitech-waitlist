@@ -137,6 +137,14 @@ svg{
   background: #AD1F24;
   filter: blur(139.093px);
 }
+footer{
+  left: 75px;
+  top: 940px;
+  position: absolute;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
 
 
 
