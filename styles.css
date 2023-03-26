@@ -138,8 +138,11 @@ svg{
   filter: blur(139.093px);
 }
 footer{
-  left:70 px;
-  top: 960px;
+  display: flex;
+  flex-flow: row wrap;
+  position: absolute;
+  left: 67px;
+  top: 980px;
   
 }
 
@@ -156,9 +159,16 @@ footer{
   /* Vector 4 */
   html body{
       max-height: 500px;
+
   }
   #icns{
       margin: 50px auto auto 80px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      position: absolute;
+      top:670px;
+
       
       
   }
@@ -173,10 +183,10 @@ footer{
       background-color: #000000;
       color: white;
       scale: 1.5;
-      width: 20px;
-      height: 20px;
+      width: 32px;
+      height: 28px;
       text-align: center;
-      padding: 5px 3px 0px 3px;
+      padding: 6px 3px 0px 3px;
   }
   section svg{
       position: absolute;
@@ -298,6 +308,14 @@ footer{
       width: 100%;
       height: auto;
       border-top-left-radius: 2rem;
+    }
+    footer{
+      display: flex;
+      flex-flow: row wrap;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+            
     }
   
   
