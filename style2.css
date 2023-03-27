@@ -64,9 +64,10 @@ html {
     width: 170px ;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 100;
+    font-weight: 400;
     font-size: .75rem;
     border-radius: 2.5px;
+    border: none;
   }
 
   input[type=submit]{
