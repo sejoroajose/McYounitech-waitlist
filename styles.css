@@ -155,11 +155,20 @@ footer{
       text-decoration: none;
   }
   
-  /* Vector 4 */
-  html body{
-      max-height: 500px;
-
+  html {
+    box-sizing: border-box;
   }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
   #icns{
       margin: 50px auto auto 80px;
       display: flex;
