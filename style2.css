@@ -12,22 +12,27 @@ html {
     padding: 0;    
   }
   form{
-    margin-left: 20px; 
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 20px auto;
   }
   
   h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Inter';
     font-style: normal;
     font-size: 25px;
     display: flex;
     align-items: center;
     color: #AD1F24;
-    margin-left: 20px; 
   }
   p{
-    margin-top: 0;
-    margin-left: 20px;
+    display: flex;
+    margin: 0 auto;
     width: 150px;
     font-family: 'Inter';
     font-style: normal;
@@ -44,14 +49,17 @@ html {
   }
 
   #fname, #lname, #text, #mail{
-    margin: 5px 0 10px 0;
+    margin: 5px auto;
     border: .25px #5b5b5b98 solid;
     border-radius: 2.5px;
     height: 25px;
     width:170px;
   }
   #platform{
-    margin: 5px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
     height: 25px;
     width: 170px ;
     font-family: 'Inter';
@@ -64,17 +72,17 @@ html {
   input[type=submit]{
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
-    width: 335px;
-    height: 52px;
+    margin: 0px auto;
+    width: 170px;
+    height: 25px;
     display: flex;
     background: #AD1F24;
-    border-radius: 8px;
-    padding: 14px 32px;
+    border-radius: 2.5px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     color: white;
+    border: none;
   }
   @media screen and (min-width= 768px) {
     .board{
