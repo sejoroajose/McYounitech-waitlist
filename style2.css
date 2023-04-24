@@ -1,95 +1,96 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;    
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  color: #AD1F24;
+}
+p{
+  display: flex;
+  margin: 0 auto;
+  width: 350px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #5B5B5B
+}
+.lbls{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #AD1F24;
+}
+
+#fname, #lname, #text, #mail{
+  margin: 5px auto;
+  border: .5px #AD1F24 solid;
+  border-radius: 5px;
+  height: 35px;
+  width:350px;
+}
+#platform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  height: 35px;
+  width: 350px ;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type=submit]{
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 350px;
+  height: 35px;
+  display: flex;
+  background: #AD1F24;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+@media screen and (min-width= 768px) {
+  .board{
+      display: flex;
+      flex-direction: column;
+      background-color: #5B5B5B;
   }
   
-  body{
-    margin: 0;
-    padding: 0;    
-  }
-  form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-  }
-  
-  h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    color: #AD1F24;
-  }
-  p{
-    display: flex;
-    margin: 0 auto;
-    width: 150px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: .75rem;
-    color: #5B5B5B
-  }
-  .lbls{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: .75rem;
-    color: #1d1d1d
-  }
-
-  #fname, #lname, #text, #mail{
-    margin: 5px auto;
-    border: .25px #5b5b5b98 solid;
-    border-radius: 2.5px;
-    height: 25px;
-    width:170px;
-  }
-  #platform{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px auto;
-    height: 25px;
-    width: 170px ;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: .75rem;
-    border-radius: 2.5px;
-    border: none;
-  }
-
-  input[type=submit]{
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-    width: 170px;
-    height: 25px;
-    display: flex;
-    background: #AD1F24;
-    border-radius: 2.5px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-    border: none;
-  }
-  @media screen and (min-width= 768px) {
-    .board{
-        display: flex;
-        flex-direction: column;
-        background-color: #5B5B5B;
-    }
-    
-  }
+}
