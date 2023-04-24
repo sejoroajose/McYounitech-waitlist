@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;    
+  }
+
+h2{
+    font-family: 'Inter';
+    font-size:35px;
+    color: #AD1F24;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:45px;
+    height: 45px;
+}
+
+#header{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 75px;
+}
+div{
+    justify-content: center;
+}
+
+#main{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    flex-direction: column;
+}
+
+div h3{
+    font-size: 30px;
+    width: 320px;
+    text-align-last: center;
+}
+
+div p {
+    font-size: 20px;
+}
